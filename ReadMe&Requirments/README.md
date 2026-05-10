@@ -18,5 +18,6 @@ This project is a Streamlit app that predicts the next day stock price for a tic
 pip install -r ReadMe\&Requirments/requirements.txt
 streamlit run App/app.py
 
-## How To Create Research Result Tables
+## How To Create Research Result Tables 
+### Creates result CSV files inside the Results folder. These files can be used to compare model performance across AAPL, TSLA, and SPY using MAE, RMSE, directional accuracy, and walk-forward validation.
 python Experiments/run_research_results.py
