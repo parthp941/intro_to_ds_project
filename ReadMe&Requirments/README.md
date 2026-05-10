@@ -1,11 +1,11 @@
 ## Stock Prediction Model
 
-This project is a Streamlit app that predicts the next trading day stock price for a ticker symbol entered by the user. It also compares basic OHLCV features against technical indicator features.
+This project is a Streamlit app that predicts the next day stock price for a ticker symbol entered by the user. It also compares basic OHLCV features against technical indicator features.
 
 ## How it works
 . Downloads stock data from yfinance
 . Creates feature engineering like moving averages, RSI, MACD, and Bollinger Bands
-. Uses K-Means clustering to create market regime labels
+. Uses K-Means clustering to group similar stock market patterns
 . Trains machine learning models
 . Compares Linear Regression, Random Forest, Gradient Boosting, and an Average Model
 . Uses TimeSeriesSplit walk-forward cross validation
